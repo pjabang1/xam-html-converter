@@ -1,0 +1,35 @@
+{
+    "name":         "pjabang1 / xam-html",
+    "description":  "Xam HTML to json/text converter",
+    "keywords":     ["Html", "text", "json", "converter"],
+    "homepage":     "http://github.com/pjabang1/xam-html",
+    "type":         "html-converter",
+    "license":      "MIT",
+
+    "authors": [
+        {
+            "name":      "Pa Essa Jabang",
+            "email":     "pjabang@gmail.com",
+            "homepage":  "http://pjabang.com"
+        }
+    ],
+
+    "require": {
+        "php":                  ">=5.3.1"
+    },
+
+    "require-dev": {
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Xam\\Html": "src/"
+        }
+    },
+
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.1.x-dev"
+        }
+    }
+}
