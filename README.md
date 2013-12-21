@@ -1,4 +1,4 @@
 xam-html
 ========
 
-Convert html file to text, json, array
+Convert html to text, html to json, html to array
